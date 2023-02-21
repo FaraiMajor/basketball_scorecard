@@ -17,50 +17,50 @@ let guestScoreBtnThree = document.getElementById("guest-score-btn-3");
 
 // Button - 1 - Home
 
-homeScoreBtnOne.addEventListener("click", function () {
-  homeScoreEl.textContent++;
+homeScoreBtnOne.addEventListener("click", function() {
+    homeScoreEl.textContent++;
 });
 
 // Button - 2 - Home
 
-homeScoreBtnTwo.addEventListener("click", function () {
-  homeScoreEl.textContent = Number(homeScoreEl.textContent) + 2;
+homeScoreBtnTwo.addEventListener("click", function() {
+    homeScoreEl.textContent = Number(homeScoreEl.textContent) + 2;
 });
 
 // Button - 3 - Home
 
-homeScoreBtnThree.addEventListener("click", function () {
-  homeScoreEl.textContent = Number(homeScoreEl.textContent) + 3;
+homeScoreBtnThree.addEventListener("click", function() {
+    homeScoreEl.textContent = Number(homeScoreEl.textContent) + 3;
 });
 
 // Reset - Home
 
-resetHomeScore.addEventListener("click", function () {
-  homeScoreEl.textContent = 0;
+resetHomeScore.addEventListener("click", function() {
+    homeScoreEl.textContent = 0;
 });
 
 // === Button Function - Guest === \\
 
 // Button - 1 - Guest
 
-guestScoreBtnOne.addEventListener("click", function () {
-  guestScoreEl.textContent++;
+guestScoreBtnOne.addEventListener("click", function() {
+    guestScoreEl.textContent++;
 });
 
 // Button - 2 - Guest
 
-guestScoreBtnTwo.addEventListener("click", function () {
-  guestScoreEl.textContent = Number(guestScoreEl.textContent) + 2;
+guestScoreBtnTwo.addEventListener("click", function() {
+    guestScoreEl.textContent = Number(guestScoreEl.textContent) + 2;
 });
 
 // Button - 3 - Guest
 
-guestScoreBtnThree.addEventListener("click", function () {
-  guestScoreEl.textContent = Number(guestScoreEl.textContent) + 3;
+guestScoreBtnThree.addEventListener("click", function() {
+    guestScoreEl.textContent = Number(guestScoreEl.textContent) + 3;
 });
 
 // Reset - Guest
 
-resetGuestScore.addEventListener("click", function () {
-  guestScoreEl.textContent = 0;
+resetGuestScore.addEventListener("click", function() {
+    guestScoreEl.textContent = 0;
 });
